@@ -12,6 +12,9 @@ body {
   /* Set background color gradient */
 body {
     background: linear-gradient(to bottom, #f8c878, #f2e5c5 );
+    background-image: url(bg_cu2023.png);
+    background-repeat:round; 
+    background-size: cover;
 }
 
 
@@ -22,7 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
+    background-color: #410403;
     padding: 0.5rem;
     border-bottom: 3px solid transparent;
     font-family: 'Tan Booster', cursive;
@@ -75,6 +78,7 @@ main p {
     line-height: 1.5;
     color: #333;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 /* Set section colors */
@@ -100,7 +104,7 @@ footer {
 }
 
 .gray {
-    background-color: gray;
+    background-color: rgb(194, 155, 29);
     font-family: 'Tan Booster', cursive;
     padding: 10px;
     border-radius: 15px;
@@ -112,12 +116,15 @@ footer {
 .gray p {
     color: white;
 }
+.gray a{
+    color: rgb(0, 0, 0);
+}
 
 /* Style welcome section */
 .welcome {
     text-align: center;
     margin: 2rem auto;
-    max-width: 600px;
+    max-width: 600px; 
 }
 
 .welcome img {
