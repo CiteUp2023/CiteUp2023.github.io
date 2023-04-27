@@ -12,9 +12,6 @@ body {
   /* Set background color gradient */
 body {
     background: linear-gradient(to bottom, #f8c878, #f2e5c5 );
-    background-image: url(konsep.png);
-    background-repeat: repeat; 
-    background-size: cover;
 }
 
 
