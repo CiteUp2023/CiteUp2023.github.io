@@ -29,12 +29,12 @@ header {
   background-color: #410403;
   padding: 0.5rem;
   border-bottom: 3px solid transparent;
-  font-family: "Tan Booster", cursive;
+  font-family: "EB Garamond", serif;
 }
 
 header h1 {
   color: #ffd700;
-  font-family: "Tan Booster", cursive;
+  font-family: "EB Garamond", serif;
 }
 
 header nav ul {
@@ -67,8 +67,8 @@ main section {
 }
 
 main h2 {
-  font-family: "Tan Booster", cursive;
-  font-size: 24px;
+  font-family: "EB Garamond", serif;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
 }
