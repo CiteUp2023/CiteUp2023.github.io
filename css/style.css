@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .footerweb {
   background-color: #130f08;
   width: 100%;
@@ -83,29 +87,27 @@ main {
 .games {
   display: flex;
   padding-top: 30px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   padding-bottom: 30px;
-  background-color: #faa245;
+  background-color: #f8d579;
   flex-wrap: wrap;
   align-items: center;
-  /* background-color:	rgba(0, 0, 47,0.3); */
   justify-content: space-evenly;
 }
 .game-list {
   margin: 30px;
-  padding-top: 40px;
-  height: 200px;
+  height: 250px;
   width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid rgb(0, 0, 0);
-  background: rgb(255, 227, 190);
+  border: 1px solid rgb(255, 255, 255);
   box-shadow: 0 8px 40px 0 rgba(37, 26, 10, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+  border: 5px solid #8e6a43;
+  margin-top: 50px;
 }
 .game-list:hover {
   transform: scale(1.05);
@@ -116,4 +118,77 @@ main {
   align-items: center;
   text-align: center;
   font-family: "Mirza";
+}
+
+.gallery {
+  padding-top: 50px;
+  display: flex;
+  padding-top: 30px;
+  /* margin-top: 30px; */
+  padding-bottom: 30px;
+  background: linear-gradient(#f8d579, #ffecbe);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.foto {
+  margin: 30px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background-color: transparent;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.title {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 50px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.kontak {
+  padding-top: 50px;
+  display: flex;
+  padding-top: 30px;
+  /* margin-top: 30px; */
+  padding-bottom: 30px;
+  background: #5a5344;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contact-list {
+  margin-top: 15px !important;
+  color: rgb(255, 255, 255);
+}
+h5 {
+  color: rgb(255, 255, 255);
+}
+
+span {
+  padding-right: 10px;
+}
+.contact-list p {
+}
+.email-contact {
+  width: 80%;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }

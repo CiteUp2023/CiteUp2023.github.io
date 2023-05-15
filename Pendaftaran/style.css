@@ -85,6 +85,7 @@ main p {
 /* Set section colors */
 .gold {
   color: gold;
+  text-align: center;
 }
 
 /* Style footer */
@@ -109,6 +110,9 @@ footer {
   border-radius: 15px;
   box-shadow: 0 0 0px gray;
   width: 200px;
+  position: center;
+  text-align: center;
+  margin: 2rem auto;
 }
 
 .gray h2,
