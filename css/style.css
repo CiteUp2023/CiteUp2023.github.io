@@ -156,10 +156,7 @@ main {
 }
 
 .kontak {
-  padding-top: 50px;
   display: flex;
-  padding-top: 30px;
-  /* margin-top: 30px; */
   padding-bottom: 30px;
   background: #5a5344;
   flex-wrap: wrap;
