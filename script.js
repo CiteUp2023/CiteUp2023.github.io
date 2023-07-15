@@ -10,10 +10,14 @@ let x = setInterval(() => {
 
   let distance = countDownDate - now;
 
-  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  let days = 0;
+  let hours = 0;
+  let minutes = 0;
+  let seconds = 0;
+  // let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  // let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  // let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  // let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   day.innerHTML = days;
   hour.innerHTML = hours;
